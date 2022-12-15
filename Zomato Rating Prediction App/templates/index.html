@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zomato Rating Finder</title>
+	<link href="http://fonts.googleapis.com/css?family=Pacifico", rel = 'stylesheet', type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Arimo", rel = 'stylesheet', type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300", rel = 'stylesheet', type="text/css">
+	<link rel = 'stylesheet' href = "{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+	<img src="https://www.equitypandit.com/wp-content/uploads/2022/07/zomato-1200x600-1.jpg"
+	        alt='zomato image', width="400", height="150", style="float:left">
+
+	<img src="https://media.istockphoto.com/id/1396758801/photo/5-star-rating.jpg?b=1&s=612x612&w=0&k=20&c=46gr-JMEaForFn8QR_E6wYYuPd1Ng-4_DN2u2TR9CeA="
+	        alt="zomato image", width="400", height="150", style="float:right">
+
+<style>
+	body{
+		background-image: url("https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+		background-position: 200%;
+		background-size: cover;
+	}
+</style>
+
+<div class="login">
+	<h1>Predict Zomato Restaurant Ratings</h1>
+	<form action="{{url_for('predict')}}" method="post">
+		<input type="text" name="Online Order" placeholder="Online Order" required="required"/>
+		<input type="text" name="Book Table" placeholder="Book Table" required="required"/>
+		<input type="text" name="Votes" placeholder="Votes" required="required"/>
+		<input type="text" name="Restaurant Type" placeholder="Restaurant Type" required="required"/>
+		<input type="text" name="Location" placeholder="Location" required="required"/>
+		<input type="text" name="Cuisine" placeholder="Cuisine" required="required"/>
+		<input type="text" name="Cost" placeholder="Cost" required="required"/>
+		<input type="text" name="Menu" placeholder="Menu" required="required"/>
+
+		<button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+	</form>
+	<br>
+	<br>
+	{{ prediction_text }}
+
+</div>
+
+</body>
+</html>
