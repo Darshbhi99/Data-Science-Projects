@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-## Steps to run the application:
-=======
-# Steps to run the application:
->>>>>>> 27cae461826acf1c5e7033971501b401946ba31e
+# PAN Card Fraud Detection
 ## Step1: Create the copy of the Project
 ## Step2: Open your command prompt and change your current path to folder where you can find app.py file
 ## Step3: Create environment by command given below-
@@ -14,8 +10,4 @@
 ## Step6: Run application by command-
 ### python app.py
 ## You will get an URL, copy it and paste it in the browser
-<<<<<<< HEAD
 ## Step7: You have sample_data folder where you can get images to test
-=======
-### Step7: You have sample_data folder where you can get images to test
->>>>>>> 27cae461826acf1c5e7033971501b401946ba31e
