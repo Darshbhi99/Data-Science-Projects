@@ -2,6 +2,7 @@
 from flask import request, render_template, Flask
 from PIL import Image
 from skimage.metrics import structural_similarity
+# To get the contours
 import imutils
 import cv2
 import os
