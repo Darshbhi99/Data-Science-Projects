@@ -1,0 +1,9 @@
+flask
+opencv-python
+Pillow
+keras
+tensorflow
+scikit-image
+numpy
+random2
+strings
