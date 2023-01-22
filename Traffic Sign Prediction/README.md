@@ -1,4 +1,4 @@
-# Image Watermarking App
+# Traffic Sign Classifier
 ## Step1: Create the copy of the Project
 ## Step2: Open your command prompt and change your current path to folder where you can find app.py file
 ## Step3: Create environment by command given below-
