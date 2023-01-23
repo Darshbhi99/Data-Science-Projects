@@ -1,0 +1,7 @@
+flask
+opencv-python
+Pillow
+numpy
+random2
+strings
+pytesseract
