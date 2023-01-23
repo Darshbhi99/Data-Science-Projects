@@ -19,6 +19,9 @@ Classification Labels:
 'Ahead only', 'Go straight or right', 'Go straight or left', 'Keep right', 'Keep left',
 'Roundabout mandatory', 'End of no passing', 'End of no passing by vehicles over 3.5 metric'
 
+## CNN Model Architecture
+
+![Model](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Traffic%20Sign%20Prediction/static/model.png?raw=true)
 
 ## Roadmap
 
