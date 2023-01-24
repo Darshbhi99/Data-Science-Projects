@@ -128,4 +128,5 @@ by understanding the traffic signs around them
 ## Acknowledgements
 
  - [Dataset Download](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
+ - [Colab Notebook](https://colab.research.google.com/drive/1MNjUMPTZmWgUoQpKfczOUnHsYSBmC6o4?usp=share_link)
 
