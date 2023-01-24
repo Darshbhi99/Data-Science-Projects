@@ -106,7 +106,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Traffic%20Sign%20Prediction/static/Traffic%20Signal%20Classifier.jpg?raw=true)
+![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Traffic%20Sign%20Prediction/static/Traffic%20Signal%20Classifier.png?raw=true)
 
 
 ## Lessons Learned
