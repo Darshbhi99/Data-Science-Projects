@@ -55,7 +55,7 @@ Classification Labels:
                Pillow, OpenCV, Streamlit
 
 
-![Logo](https://raw.githubusercontent.com/Darshbhi99/Data-Science-Projects/main/Traffic%20Sign%20Prediction/logo.png)
+![Logo](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Dog%20Breed%20Prediction/logo.png?raw=true)
 
 
 ## Run Locally
