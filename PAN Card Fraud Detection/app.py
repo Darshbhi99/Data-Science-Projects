@@ -34,6 +34,7 @@ def index():
         uploaded_image.save(os.path.join(INITIAL_FILE_UPLOADS, 'image.png'))
 
         # Resize and save the original image to be sure the uploaded and original matches the size
+
         # original_image = Image.open(os.path.join(app.config['EXISTING_FILE'], 'image.jpg')).resize(250,160)
         original_image = Image.open(os.path.join(EXISTING_FILE, 'original.png')).resize((250,160))
         # original_image.save(os.path.join(app.config['EXISTING_FILE'], 'image.png'))
@@ -50,17 +51,18 @@ def index():
         uploaded_gray = cv2.cvtColor(uploaded_image, cv2.COLOR_BGR2GRAY)
 
         # Find the structural_similarity_index(SSIM)
-        (score, diff) = structural_similarity(original_gray,uploaded_gray, full=True)
-        diff = (diff*255).astype('uint8')
+        (score, diff) = structural_similarity(original_gray,uploaded_gray, full=True) # Gives you the similarity score and difference image
+        diff = (diff*255).astype('uint8') # Multiplying the image array with 255 
 
         #Find the Threshold and Contours
-        thres = cv2.threshold(diff,0,255, cv2.THRESH_BINARY_INV|cv2.THRESH_OTSU)[1]
-        cnts = cv2.findContours(thres.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        cnts = imutils.grab_contours(cnts)
+        thres = cv2.threshold(diff,0,255, cv2.THRESH_BINARY_INV|cv2.THRESH_OTSU)[1] # Getting the threshold of the difference image
+        # Applying that threshold on the image to get border/edges
+        cnts = cv2.findContours(thres.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE) 
+        cnts = imutils.grab_contours(cnts)  # Catching the borders/edges inside the image
         for c in cnts:
             (x,y,w,h) = cv2.boundingRect(c)
-            cv2.rectangle(original_image, (x,y), (x+w, y+h), (0,255,0), 3)
-            cv2.rectangle(uploaded_image, (x,y), (x+w, y+h), (0,255,0), 3)
+            cv2.rectangle(original_image, (x,y), (x+w, y+h), (0,255,0), 3) # Creating box around those borders/edges on original image
+            cv2.rectangle(uploaded_image, (x,y), (x+w, y+h), (0,255,0), 3) # Creating box around those borders/edges on uploaded image
     
         # Save all output Images
         # cv2.imwrite(os.path.join(app.config['GENERATED_FILE'],'image_original'), original_image)

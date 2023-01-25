@@ -1,16 +1,93 @@
-# Text Extractor From Image
-## Download the pytesseract software suitable for your pc from below link
-### "https://github.com/UB-Mannheim/tesseract/wiki"
-## Install the software and keep the track for the path where it is installed 
-## Step1: Create the copy of the Project
-## Step2: In the app.py file change the path of the tesseract to your path(tesseract_cmd)
-## Step3: Open your command prompt and change your current path to folder where you can find app.py file
-## Step4: Create environment by command given below-
-### conda create -m <environment_name>
-## Step5: Activate the environment by command as follows-
-### conda activate <environment_name>
-## Step6: Use command below to  install required dependencies-
-### python -m pip install -r requirements.txt
-## Step7: Run application by command-
-### python app.py
-## You will get an URL, copy it and paste it in the browser
+
+# Text Extractor App © 
+
+In this project we will see how to Extract Text from an 
+image. This project will save time and effort of typing
+text from an image.
+
+
+## Roadmap
+
+- Loading the image from the Flask app
+
+- Resizing the images 
+
+- Convert images into RGB Format and then convert it 
+  into numpy array 
+
+- Using pytesseract library for extracting text from 
+  the image.
+
+- Removing the special characters from the text. 
+
+
+## Tech Stack
+
+**Tech:** Python, Visual Studio Code, 
+          Internet Explorer
+
+**Libraries:** Pillow, OpenCV, Flask
+               pytesseract 
+
+![Logo](https://raw.githubusercontent.com/Darshbhi99/Data-Science-Projects/main/Traffic%20Sign%20Prediction/logo.png)
+
+
+## Run Locally
+
+Download the pytesseract software suitable for your pc from below link
+
+"https://github.com/UB-Mannheim/tesseract/wiki"
+
+Install the software and keep the track for the path where it is installed
+
+Clone the project
+
+```bash
+  git clone https://github.com/Darshbhi99/Data-Science-Projects.git
+```
+
+Go to the project directory
+
+```bash
+  cd c:\Downloads\Data-Science-Projects\Image Watermarking App
+```
+
+Create Virtual Environment
+
+```bash
+  conda create <environment_name> -p python==3.10.6
+```
+
+Activate the Virtual Environment
+
+```bash
+  conda activate ./<environment_name>
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
+Start the server
+
+```bash
+  python app.py
+```
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Text%20Extractor%20App/static/Text_Extractor_App.jpg?raw=true)
+
+
+## Lessons Learned
+
+### Conclusion
+We started with loading the image, resizing the image, extracting 
+the text from the image, cleaning the text.
+
+### Scope
+This model can be used in Organizations which use images as 
+reference for documentation.
