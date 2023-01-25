@@ -37,7 +37,7 @@ opencv for adding logos and text as an watermark.
 **Tech:** Python, Visual Studio Code, 
           Internet Explorer
 
-**Libraries:** TensorFlow, Keras, Flask, Numpy, Pandas,
+**Libraries:** TensorFlow, Keras, Numpy, Pandas,
                Pillow, OpenCV, Flask
 
 
