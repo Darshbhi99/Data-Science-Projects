@@ -83,7 +83,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Image%20Watermarking%20App/static/Image_watermark.jpg?raw=true)
+![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/PAN%20Card%20Fraud%20Detection/static/PAN_Card_Fraud_Detection.jpg?raw=true)
 
 
 ## Lessons Learned
