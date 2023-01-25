@@ -39,7 +39,7 @@ Original and Fake PAN Card.
                imutils
 
 
-![Logo](https://raw.githubusercontent.com/Darshbhi99/Data-Science-Projects/main/Traffic%20Sign%20Prediction/logo.png)
+![Logo](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/PAN%20Card%20Fraud%20Detection/static/logo.png?raw=true)
 
 
 ## Run Locally
