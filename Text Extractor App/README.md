@@ -29,7 +29,7 @@ text from an image.
 **Libraries:** Pillow, OpenCV, Flask
                pytesseract 
 
-![Logo](https://raw.githubusercontent.com/Darshbhi99/Data-Science-Projects/main/Traffic%20Sign%20Prediction/logo.png)
+![Logo](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Text%20Extractor%20App/static/logo4.png?raw=true)
 
 
 ## Run Locally
