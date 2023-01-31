@@ -128,5 +128,5 @@ wastage of crop due to disease
 ## Acknowledgements
 
  - [Dataset Download](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
- - [Colab Notebook](https://drive.google.com/drive/folders/1Uo0o8cZfOHw8SX6kH2i_qrio5L1byxVp?usp=sharing)
+ - [Colab Notebook](https://colab.research.google.com/drive/1BlZV6QdpzVWyKMVOIcJfqWP6uFikwb4y?usp=share_link)
 
