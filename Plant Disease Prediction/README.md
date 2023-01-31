@@ -108,7 +108,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Dog%20Breed%20Prediction/app.png?raw=true)
+![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Plant%20Disease%20Prediction/static/app.png?raw=true)
 
 
 ## Lessons Learned
