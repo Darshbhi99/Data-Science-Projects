@@ -19,7 +19,7 @@ Classification Labels:
 
 ## CNN Model Architecture
 
-![Model](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Dog%20Breed%20Prediction/model.png?raw=true)
+![Model](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Plant%20Disease%20Prediction/static/model.png?raw=true)
 
 ## Roadmap
 
