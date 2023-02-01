@@ -49,7 +49,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd c:\Downloads\Data-Science-Projects\Image Watermarking App
+  cd c:\Downloads\Data-Science-Projects\Text Extractor App
 ```
 
 Create Virtual Environment
