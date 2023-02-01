@@ -76,7 +76,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd c:\Downloads\Data-Science-Projects\Dog Breed Prediction
+  cd c:\Downloads\Data-Science-Projects\Plant Disease Prediction
 ```
 
 Create Virtual Environment
