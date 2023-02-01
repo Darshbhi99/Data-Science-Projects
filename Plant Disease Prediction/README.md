@@ -19,7 +19,7 @@ Classification Labels:
 
 ## CNN Model Architecture
 
-![Model](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Dog%20Breed%20Prediction/model.png?raw=true)
+![Model](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Plant%20Disease%20Prediction/static/model.png?raw=true)
 
 ## Roadmap
 
@@ -108,7 +108,7 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Dog%20Breed%20Prediction/app.png?raw=true)
+![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Plant%20Disease%20Prediction/static/app.png?raw=true)
 
 
 ## Lessons Learned
@@ -128,5 +128,5 @@ wastage of crop due to disease
 ## Acknowledgements
 
  - [Dataset Download](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
- - [Colab Notebook](https://drive.google.com/drive/folders/1Uo0o8cZfOHw8SX6kH2i_qrio5L1byxVp?usp=sharing)
+ - [Colab Notebook](https://colab.research.google.com/drive/1BlZV6QdpzVWyKMVOIcJfqWP6uFikwb4y?usp=share_link)
 
