@@ -56,7 +56,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd c:\Downloads\Data-Science-Projects\Image Watermarking App
+  cd c:\Downloads\Data-Science-Projects\Vehicle Detection and Counting App
 ```
 
 Create Virtual Environment
@@ -86,15 +86,18 @@ Start the server
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Text%20Extractor%20App/static/Text_Extractor_App.jpg?raw=true)
+![App Screenshot](https://github.com/Darshbhi99/Data-Science-Projects/blob/main/Vehicle%20Detection%20and%20Counting/static/app.png?raw=true)
 
 
 ## Lessons Learned
 
 ### Conclusion
-We started with loading the image, resizing the image, extracting 
-the text from the image, cleaning the text.
+We started with loading the image, performed multiple operations 
+on the image. We saw how we can use haar cascade which is used 
+for detection. We saw different haar cascade is used for car 
+detection and bus detection. Similarly we can use different 
+cascades for different cascade detection.
 
 ### Scope
-This model can be used in Organizations which use images as 
-reference for documentation.
+This model can be use this app at various object detection and 
+vehicle tracking on traffic areas. 
